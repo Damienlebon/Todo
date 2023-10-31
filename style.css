@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .task {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #112a46;
+    background: #acc8e5;
+    color: #112a46;
+  }
+  .task p {
+    letter-spacing: 1px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    color: gray;
+  }
+  
+  button:hover {
+    background: rgba(255, 0, 0, 0.436);
+    cursor: pointer;
+    color: white;
+  }
+  
+  input {
+    padding: 10px 20px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    color: gray;
+    margin: 10px;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: rgba(172, 255, 47, 0.443);
+  }
